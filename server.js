@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 
 // CORS configuration
 const corsOptions = {
-  origin: 'https://fileshare-frontend-j3p4.onrender.com/', 
+  origin: 'https://fileshare-frontend-j3p4.onrender.com', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
