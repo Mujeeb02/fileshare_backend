@@ -6,7 +6,7 @@ require('dotenv').config();
 const userRoutes = require('./routes/user'); // Ensure the correct path to your routes file
 
 const app = express();
-const port = 3000;
+const port = 10000;
 const url=process.env.MONGODB_CONNECTION_URL;
 console.log(process.env.MONGODB_CONNECTION_URL)
 // Connect to MongoDB
